@@ -3,7 +3,7 @@
 // ============================================================
 
 // ── 1. SUPABASE SETUP ────────────────────────────────────────
-const SUPABASE_URL     = "https://blkqlntxknkkjmgltksl.supabase.co";
+const SUPABASE_URL     = "https://blkqlntxknkkjmgltksl.supabase.co/rest/v1/";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJsa3FsbnR4a25ra2ptZ2x0a3NsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcyMDk4MDUsImV4cCI6MjA5Mjc4NTgwNX0.6ET9oPtZCthoLAtxl__Y62Md5bE2Tbl7c9m-k368OCM"
 const db = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
